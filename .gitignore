@@ -36,4 +36,4 @@ cmake-build-debug
 
 # Build Files
 x64/*
-AdventOfCode2021/x64/*
+AdventOfCode/x64/*
