@@ -12,7 +12,7 @@
 #include <fstream>
 #include <cassert>
 
-namespace AdventOfCode2021 {
+namespace AdventOfCode {
 
 	template<typename T>
 	std::vector<T> LoadDataFromFile(const std::string filePath, std::function<T(std::string)> const& parse) {

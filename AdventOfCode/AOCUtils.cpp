@@ -3,7 +3,7 @@
 //
 #include "AOCUtils.h"
 
-namespace AdventOfCode2021 {
+namespace AdventOfCode {
 	std::vector<std::string> splitString(std::string searchString, std::string delimiter) {
 		std::vector<std::string> out;
 		size_t pos = 0;
