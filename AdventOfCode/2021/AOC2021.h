@@ -1,8 +1,8 @@
 ﻿#pragma once
 #include "../AOC.h"
 //Include Days
-#include "Day1.h"
-#include "Day2.h"
+#include "2021_Day1.h"
+#include "2021_Day2.h"
 
 static AdventOfCodeYear AdventOfCode_2021(
 	{

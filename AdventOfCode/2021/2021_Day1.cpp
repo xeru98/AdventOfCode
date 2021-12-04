@@ -1,12 +1,12 @@
 ﻿//
 // Created by Xeru on 12/1/2021.
 //
-#include "Day1.h"
+#include "2021_Day1.h"
 #include "../AOCUtils.h"
 
 void AOC_2021_1::Part1() {
 	//Load text file into list of integers
-	std::vector<int> data = AdventOfCode::LoadDataFromFile<int>("Data/Day1.txt", [](std::string in){
+	std::vector<int> data = AdventOfCode::LoadDataFromFile<int>(GetDataPath(), [](std::string in){
 		return atoi(in.c_str());
 	});
 
@@ -25,7 +25,7 @@ void AOC_2021_1::Part1() {
 
 void AOC_2021_1::Part2() {
 	//Load text file into list of integers
-	std::vector<int> data = AdventOfCode::LoadDataFromFile<int>("Data/Day1.txt", [](std::string in){
+	std::vector<int> data = AdventOfCode::LoadDataFromFile<int>(GetDataPath(), [](std::string in){
 		return atoi(in.c_str());
 	});
 
@@ -67,8 +67,8 @@ std::string AOC_2021_1::Part2Problem() {
 	std::string out = "Considering every single measurement isn't as useful as you expected: there's just too much noise in the data.\n\n";
 	out += "Instead, consider sums of a three-measurement sliding window. Again considering the above example: \n\n";
 	out += "199  A\n200  A B\n208  A B C\n210    B C D\n200  E   C D\n207  E F   D\n240  E F G\n269    F G H\n260      G H\n263        H\n";
-	out += "Start by comparing the first and second three-measurement windows. The measurements in the first window are marked A (199, 200, 208); their sum is 199 + 200 + 208 = 607. The second window is marked B (200, 208, 210); its sum is 618. The sum of measurements in the second window is larger than the sum of the first, so this first comparison increased.\n"
-	out += "Your goal now is to count the number of times the sum of measurements in this sliding window increases from the previous sum. So, compare A with B, then compare B with C, then C with D, and so on. Stop when there aren't enough measurements left to create a new three-measurement sum.\n"
+	out += "Start by comparing the first and second three-measurement windows. The measurements in the first window are marked A (199, 200, 208); their sum is 199 + 200 + 208 = 607. The second window is marked B (200, 208, 210); its sum is 618. The sum of measurements in the second window is larger than the sum of the first, so this first comparison increased.\n";
+	out += "Your goal now is to count the number of times the sum of measurements in this sliding window increases from the previous sum. So, compare A with B, then compare B with C, then C with D, and so on. Stop when there aren't enough measurements left to create a new three-measurement sum.\n";
 	out += "In the above example, the sum of each three-measurement window is as follows:\n\n";
 	out += "A: 607 (N/A - no previous sum)\nB: 618 (increased)\nC: 618 (no change)\nD: 617 (decreased)\nE: 647 (increased)\nF: 716 (increased)\nG: 769 (increased)\nH: 792 (increased)\n";
 	out += "In this example, there are 5 sums that are larger than the previous sum.\n\n";

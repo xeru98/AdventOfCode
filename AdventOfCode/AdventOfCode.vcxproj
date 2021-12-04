@@ -154,7 +154,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="2021\Day1.cpp">
+    <ClCompile Include="2015\2015_Day1.cpp" />
+    <ClCompile Include="2015\2015_Day2.cpp" />
+    <ClCompile Include="2021\2021_Day1.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -221,7 +223,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
-    <ClCompile Include="2021\Day2.cpp">
+    <ClCompile Include="2021\2021_Day2.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <Optimization>Disabled</Optimization>
@@ -293,7 +295,6 @@
     <ClCompile Include="AOCUtils.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="2015\Data" />
     <Folder Include="2016" />
     <Folder Include="2017" />
     <Folder Include="2018" />
@@ -301,14 +302,18 @@
     <Folder Include="2020" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="2015\2015_Day2.h" />
     <ClInclude Include="2015\AOC2015.h" />
-    <ClInclude Include="2021\Day1.h" />
-    <ClInclude Include="2021\Day2.h" />
+    <ClInclude Include="2015\2015_Day1.h" />
+    <ClInclude Include="2021\2021_Day1.h" />
+    <ClInclude Include="2021\2021_Day2.h" />
     <ClInclude Include="2021\AOC2021.h" />
     <ClInclude Include="AOC.h" />
     <ClInclude Include="AOCUtils.h" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="2015\Data\Day1.txt" />
+    <Content Include="2015\Data\Day2.txt" />
     <Content Include="2021\Data\Day1.txt" />
     <Content Include="2021\Data\Day2.txt" />
   </ItemGroup>

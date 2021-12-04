@@ -1,4 +1,4 @@
-﻿#include "Day2.h"
+﻿#include "2021_Day2.h"
 #include "../AOCUtils.h"
 
 void AOC_2021_2::Part1() {

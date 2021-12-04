@@ -5,8 +5,10 @@
 #include "../AOC.h"
 #include <vector>
 
-class AOC_2021_1 : public AdventOfCodeDay {
+class AOC_2021_2 : public AdventOfCodeDay {
 public:
+	std::string GetDataPath() override { return "2021/Data/Day2.txt"; }
+	
 	void Part1() override;
 	void Part2() override;
 
@@ -14,5 +16,10 @@ public:
 	std::string Part2Problem() override;
 
 private:
-	int getFrameSum(std::vector<int>& data, int frameEndIndex);
+	enum class Direction {
+		forward,
+		up,
+		down,
+		unknown
+	};
 };

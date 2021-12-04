@@ -12,16 +12,19 @@ void AdventOfCodeDay::ExecutePart(int part, bool bShowProblemText) {
 			std::printf(Part2Problem().c_str());
 		}
 		Part2();
+		break;
 	case 1:
 		if(bShowProblemText) {
 			std::printf(Part1Problem().c_str());
 		}
 		Part1();
+		break;
 	case 2:
 		if(bShowProblemText) {
 			std::printf(Part2Problem().c_str());
 		}
 		Part2();
+		break;
 	default:
 		std::printf("Unknown part: %i\n", part);
 		break;
