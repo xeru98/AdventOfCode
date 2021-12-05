@@ -6,8 +6,6 @@ public:
 	std::string GetDataPath() override { return "2015/Data/Day2.txt"; }
 	void Part1() override;
 	void Part2() override;
-	std::string Part1Problem() override;
-	std::string Part2Problem() override;
 
 private:
 	struct Box {

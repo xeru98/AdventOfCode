@@ -290,6 +290,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
+    <ClCompile Include="2021\2021_Day3.cpp" />
     <ClCompile Include="AdventOfCode.cpp" />
     <ClCompile Include="AOC.cpp" />
     <ClCompile Include="AOCUtils.cpp" />
@@ -307,6 +308,7 @@
     <ClInclude Include="2015\2015_Day1.h" />
     <ClInclude Include="2021\2021_Day1.h" />
     <ClInclude Include="2021\2021_Day2.h" />
+    <ClInclude Include="2021\2021_Day3.h" />
     <ClInclude Include="2021\AOC2021.h" />
     <ClInclude Include="AOC.h" />
     <ClInclude Include="AOCUtils.h" />
@@ -316,6 +318,7 @@
     <Content Include="2015\Data\Day2.txt" />
     <Content Include="2021\Data\Day1.txt" />
     <Content Include="2021\Data\Day2.txt" />
+    <Content Include="2021\Data\Day3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
