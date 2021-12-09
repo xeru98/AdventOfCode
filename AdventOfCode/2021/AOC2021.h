@@ -9,6 +9,7 @@
 #include "2021_Day6.h"
 #include "2021_Day7.h"
 #include "2021_Day8.h"
+#include "2021_Day9.h"
 
 static AdventOfCodeYear AdventOfCode_2021(
 	{
@@ -19,6 +20,7 @@ static AdventOfCodeYear AdventOfCode_2021(
 		{5, new AOC_2021_5()},
 		{6, new AOC_2021_6()},
 		{7, new AOC_2021_7()},
-		{8, new AOC_2021_8()}
+		{8, new AOC_2021_8()},
+		{9, new AOC_2021_9()}
 	}
 );
