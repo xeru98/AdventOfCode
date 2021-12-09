@@ -295,6 +295,7 @@
     <ClCompile Include="2021\2021_Day5.cpp" />
     <ClCompile Include="2021\2021_Day6.cpp" />
     <ClCompile Include="2021\2021_Day7.cpp" />
+    <ClCompile Include="2021\2021_Day8.cpp" />
     <ClCompile Include="AdventOfCode.cpp" />
     <ClCompile Include="AOC.cpp" />
     <ClCompile Include="AOCUtils.cpp" />
@@ -317,6 +318,7 @@
     <ClInclude Include="2021\2021_Day5.h" />
     <ClInclude Include="2021\2021_Day6.h" />
     <ClInclude Include="2021\2021_Day7.h" />
+    <ClInclude Include="2021\2021_Day8.h" />
     <ClInclude Include="2021\AOC2021.h" />
     <ClInclude Include="AOC.h" />
     <ClInclude Include="AOCUtils.h" />
@@ -331,6 +333,7 @@
     <Content Include="2021\Data\Day5.txt" />
     <Content Include="2021\Data\Day6.txt" />
     <Content Include="2021\Data\Day7.txt" />
+    <Content Include="2021\Data\Day8.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
