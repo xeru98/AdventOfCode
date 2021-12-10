@@ -223,6 +223,7 @@
       <SDLCheck>true</SDLCheck>
       <LinkCompiled>true</LinkCompiled>
     </ClCompile>
+    <ClCompile Include="2021\2021_Day10.cpp" />
     <ClCompile Include="2021\2021_Day2.cpp">
       <RuntimeLibrary>MultiThreadedDebugDll</RuntimeLibrary>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
@@ -313,6 +314,7 @@
     <ClInclude Include="2015\AOC2015.h" />
     <ClInclude Include="2015\2015_Day1.h" />
     <ClInclude Include="2021\2021_Day1.h" />
+    <ClInclude Include="2021\2021_Day10.h" />
     <ClInclude Include="2021\2021_Day2.h" />
     <ClInclude Include="2021\2021_Day3.h" />
     <ClInclude Include="2021\2021_Day4.h" />
@@ -329,6 +331,7 @@
     <Content Include="2015\Data\Day1.txt" />
     <Content Include="2015\Data\Day2.txt" />
     <Content Include="2021\Data\Day1.txt" />
+    <Content Include="2021\Data\Day10.txt" />
     <Content Include="2021\Data\Day2.txt" />
     <Content Include="2021\Data\Day3.txt" />
     <Content Include="2021\Data\Day4.txt" />

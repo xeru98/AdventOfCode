@@ -1,5 +1,6 @@
 ﻿#pragma once
 #include "../AOC.h"
+
 //Include Days
 #include "2021_Day1.h"
 #include "2021_Day2.h"
@@ -10,6 +11,7 @@
 #include "2021_Day7.h"
 #include "2021_Day8.h"
 #include "2021_Day9.h"
+#include "2021_Day10.h"
 
 static AdventOfCodeYear AdventOfCode_2021(
 	{
@@ -21,6 +23,7 @@ static AdventOfCodeYear AdventOfCode_2021(
 		{6, new AOC_2021_6()},
 		{7, new AOC_2021_7()},
 		{8, new AOC_2021_8()},
-		{9, new AOC_2021_9()}
+		{9, new AOC_2021_9()},
+		{10, new AOC_2021_10()}
 	}
 );
