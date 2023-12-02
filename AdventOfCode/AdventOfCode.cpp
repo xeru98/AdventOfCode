@@ -1,9 +1,10 @@
 #include "2015/AOC2015.h"
 #include "2021/AOC2021.h"
+#include "2023/AOC2023.h"
 
 
 int main(int argc, char* argv[])
 {
-    AdventOfCode_2021.ExecutePart(10,0);
+    AdventOfCode_2023.ExecutePart(3,0);
     return 0;
 }

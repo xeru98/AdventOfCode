@@ -27,6 +27,16 @@ namespace AdventOfCode {
 		return out;
 	}
 
+	inline void ProcessDataFromFileInline(const std::string filePath, std::function<void(std::string)> const & parse) {
+		std::ifstream file(filePath);
+		if (file.is_open()) {
+			std::string line;
+			while (std::getline(file, line)) {
+				parse(line);
+			}
+		}
+	}
+
 	std::vector<std::string> splitString(std::string searchString, std::string delimiter);
 
 }

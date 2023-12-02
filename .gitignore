@@ -37,3 +37,6 @@ cmake-build-debug
 # Build Files
 x64/*
 AdventOfCode/x64/*
+
+.idea
+.vs
