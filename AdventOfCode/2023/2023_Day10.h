@@ -1,6 +1,7 @@
 ﻿#pragma once
 
 #include <unordered_map>
+#include <set>
 
 #include "../AOC.h"
 
@@ -27,6 +28,8 @@ private:
         SW,
         SE,
         NONE,
+    	UNENCLOSED,
+    	ENCLOSED,
         START
     };
 
@@ -38,12 +41,23 @@ private:
         Tile* south;
         Tile* east;
         Tile* west;
+    	int x;
+    	int y;
 
-        Tile* getNext(Tile* prev);
+        Tile* getNext(const Tile* prev);
         bool stronglyConnected();
         bool shouldBeConnected(Direction d);
     };
 
+	struct Loop {
+		long len;
+		std::set<std::pair<int, int>>* visitedTiles;
+
+		Loop(Tile* start);
+	};
+
     void connectTileMap(std::vector<std::vector<Tile*>>& map);
-    
+    void fillSpace(Tile* src);
+
+	std::vector<Tile*> getEdgeTiles(std::vector<std::vector<Tile*>> tiles);
 };

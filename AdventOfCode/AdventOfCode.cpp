@@ -5,6 +5,6 @@
 
 int main(int argc, char* argv[])
 {
-    AdventOfCode_2023.ExecutePart(10,0);
+    AdventOfCode_2023.ExecutePart(12,0);
     return 0;
 }

@@ -4,6 +4,8 @@
 //Include Days
 #include "2023_Day1.h"
 #include "2023_Day10.h"
+#include "2023_Day11.h"
+#include "2023_Day12.h"
 #include "2023_Day2.h"
 #include "2023_Day3.h"
 #include "2023_Day4.h"
@@ -24,6 +26,8 @@ static AdventOfCodeYear AdventOfCode_2023(
 		{7, new AOC_2023_7()},
 		{8, new AOC_2023_8()},
 		{9, new AOC_2023_9()},
-		{10, new AOC_2023_10()}
+		{10, new AOC_2023_10()},
+		{11, new AOC_2023_11()},
+		{12, new AOC_2023_12()}
 	}
 );
